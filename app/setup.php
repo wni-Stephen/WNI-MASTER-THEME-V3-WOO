@@ -5,7 +5,7 @@
  * Registers WordPress theme support and navigation menus.
  */
 
-defined('ABSPATH') || exit;
+defined( 'ABSPATH' ) || exit;
 
 
 /**
@@ -85,6 +85,37 @@ function websiteni_joints_theme_setup() {
 		)
 	);
 
+
+	/**
+	 * WooCommerce support.
+	 */
+	add_theme_support(
+		'woocommerce'
+	);
+
+
+	/**
+	 * Enable WooCommerce product gallery zoom.
+	 */
+	add_theme_support(
+		'wc-product-gallery-zoom'
+	);
+
+
+	/**
+	 * Enable WooCommerce product gallery lightbox.
+	 */
+	add_theme_support(
+		'wc-product-gallery-lightbox'
+	);
+
+
+	/**
+	 * Enable WooCommerce product gallery slider.
+	 */
+	add_theme_support(
+		'wc-product-gallery-slider'
+	);
 
 
 	/**

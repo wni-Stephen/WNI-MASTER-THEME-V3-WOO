@@ -19,3 +19,4 @@ require_once get_template_directory() . '/app/plugins.php';
 require_once get_template_directory() . '/app/helpers.php';
 require_once get_template_directory() . '/app/media.php';
 require_once get_template_directory() . '/app/launch-check.php';
+require_once get_template_directory() . '/app/woocommerce.php';

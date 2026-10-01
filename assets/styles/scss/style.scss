@@ -54,3 +54,13 @@
  */
 
 @import 'custom';
+
+// WooCommerce
+@import 'woocommerce/shop';
+@import 'woocommerce/product-card';
+@import 'woocommerce/single-product';
+@import 'woocommerce/cart';
+@import 'woocommerce/checkout';
+@import 'woocommerce/account';
+@import 'woocommerce/notices';
+@import 'woocommerce/forms';
